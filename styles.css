@@ -1,0 +1,121 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	
+  }
+  
+  body {
+	color: #161616;
+    font-family: sans-serif;
+    background-color: #fff
+  }
+  
+  .header {
+	width: auto;
+	height: 80px;
+	background-color: #161616;
+	color: white;
+  }
+  
+  .Redes{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+	margin-right: 10px;
+	list-style: none;
+	background-color: #00ff7d;
+}
+
+  .Logofooter {
+	width:60px;
+	height: 60px;
+  }
+
+  .logo {
+	width: 60px;
+	height: 60px;
+	border-radius: 50%;
+	position: relative;
+	align-items: center;
+	top: 10PX;
+	left:10px;
+  }
+
+  .navbar {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 10px 20px;
+  }
+  
+  .inicio {
+	font-size: 24px;
+	text-decoration: none;
+  }
+  
+  .nav-links {
+	position: relative;
+	right: 80px;
+	bottom: 45px;
+	list-style: none;
+	display: flex;
+  }
+  
+  .nav-links li {
+	margin-right: 20px;
+  }
+  
+  .nav-links a {
+	text-decoration: none;
+	color: white;
+  }
+
+  .banner {
+	margin: 0 auto;
+	background: #d8d9d9;
+	background-image: url('Bienvenidos.gif');
+	box-align: center;
+	padding: 70px 0;
+	width: 800px;
+    height: 300px;
+  }
+
+  .Contenedor {
+	display: flex;
+	justify-content: center;
+	margin: 0 auto;
+	padding-bottom: 40px;
+  }
+
+  .QuienesSomos {
+	background-color: #d8d9d9;
+	padding: 20px ;
+	margin-right: 10px;
+  }
+
+  .QueHacemos {
+	background-color: #00ff7d;
+	padding: 20px ;
+	margin-left: 10px;
+  }
+
+  .Product {
+	margin: 0 auto;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	padding: 20px 0;
+	flex-direction: row;
+  }
+
+  .footer {
+	text-align: center;
+	padding: 20px;
+	background-color: #161616;
+	color: white;
+  }
+  
+  
